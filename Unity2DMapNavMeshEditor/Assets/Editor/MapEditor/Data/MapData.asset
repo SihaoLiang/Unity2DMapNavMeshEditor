@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd4d3710a30ea34ebc25d9315520a38, type: 3}
+  m_Name: MapData
+  m_EditorClassIdentifier: 
+  allMapData:
+  - m_MapPosGrids: []
+    usingLayer: 1
+    m_MapMaskGridHashSet:
+    - x: 5
+      y: 0
+      mask: 1
+    mapSize: {x: 100, y: 100}
+    position: {x: 0, y: 0}
+    mapId: SampleScene
+    sceneAsset: {fileID: 102900000, guid: c7af9304ae465ca4dafa991a3ba7e365, type: 3}
+    lineColor: {r: 1, g: 1, b: 1, a: 1}
+    hideLine: 0
+    hideMask: 0
+    hidePosition: 0
+    gridSize: 0.5
+  mapMaskLayers:
+  - id: 1
+    key: "\u4E0D\u53EF\u884C\u8D70"
+    color: {r: 1, g: 0, b: 0, a: 1}
